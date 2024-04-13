@@ -6,6 +6,7 @@
     --clr-sky400: #38bdf8;
     --clr-sky500: #0ea5e9;
     --clr-sky600: #0284c7;
+    --clr-sky700: #0369a1;
     --clr-sky800: #075985;
     --clr-sky900: #0c4a6e;
     --clr-sky950: #082f49;
@@ -48,7 +49,7 @@ html{
 
 body{
     font-family: 'General Sans', sans-serif;
-    background-color: var(--clr-sky600);
+    background-color: var(--clr-sky50);
     color: var(--clr-sky900);
 }
 
@@ -70,6 +71,7 @@ button{
 
 a{
     color: var(--clr-sky500);
+    cursor: pointer;
 }
 
 strong{
