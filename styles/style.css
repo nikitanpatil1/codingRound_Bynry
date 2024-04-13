@@ -1,0 +1,59 @@
+:root{
+    --clr-sky50: #f0f9ff;
+    --clr-sky100: #e0f2fe;
+    --clr-sky200: #bae6fd;
+    --clr-sky300: #7dd3fc;
+    --clr-sky400: #38bdf8;
+    --clr-sky500: #0ea5e9;
+    --clr-sky600: #0284c7;
+    --clr-sky800: #075985;
+    --clr-sky900: #0c4a6e;
+    --clr-sky950: #082f49;
+
+    --clr-neutral50: #fafafa;
+    --clr-neutral950: #0a0a0a;
+
+    --clr-red300: #fca5a5;
+    --clr-green300: #86efac;
+}
+
+
+
+*{
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'General Sans', sans-serif;
+    background-color: var(--clr-sky50);
+    color: var(--clr-sky900);
+}
+
+img,
+picture{
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button{
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+a{
+    color: var(--clr-sky500);
+}
+
+strong{
+    color: var(--clr-sky950);
+}
