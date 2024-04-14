@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+.search{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--clr-sky600);
+}
+
+.search__icon{
+    color: var(--clr-sky500);
+    width: var(--size-base);
+    height: var(--size-base);
+}
+
+.search__input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+}
