@@ -21,12 +21,12 @@
     display: inline-block;
     font-weight: 600;
     text-decoration: none;
-    letter-spacing: -0.05em;
+    /* letter-spacing: -0.05em; */
     background-color: var(--clr-sky500);
     color: var(--clr-sky50);
     padding: 0.5em 1em;
     border-radius: 6px;
-    margin-left: 0.5em;
+    /* margin-left: 0.5em; */
     transition: transform 0.2s;
 }
 
