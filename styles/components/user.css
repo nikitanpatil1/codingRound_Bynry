@@ -71,4 +71,12 @@
     padding-left: 0.5rem;
     margin-left: 0.4rem;
     margin-right: 0.4rem;
+    color: var(--clr-sky950);
+    background-color: var(--clr-neutral50);
+    
+}
+
+.search__input:focus{
+    /* background-color: var(--clr-sky50); */
+    border: 1px solid var(--clr-sky600);
 }
