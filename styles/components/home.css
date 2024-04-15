@@ -1,6 +1,9 @@
 body{
-    height: 100vh;
     background-color: var(--clr-sky200);
+}
+
+.home__flex{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +15,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: var(--size-3xl);
+    font-size: var(--size-xl);
+    text-align: center;
 }
 
 
@@ -22,13 +26,13 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .user__box{
     background-color: var(--clr-sky700);
-    padding: 1rem 3rem;
-    border-radius: 20px;
+    padding: 0.5rem 4rem;
+    border-radius: 10px;
     transition: all 0.3s;
 }
 .user__box:hover{
@@ -38,7 +42,7 @@ header{
 .user__link{
    color: var(--clr-sky50);
    text-decoration: none;
-   font-size: var(--size-lg);
+   font-size: var(--size-base);
    font-weight: 600;
    letter-spacing: 0.07em;
    
@@ -47,8 +51,8 @@ header{
 
 .administrator__box{
     background-color: var(--clr-sky700);
-    padding: 1rem 1rem;
-    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
     transition: all 0.3s;
 }
 .administrator__box:hover{
@@ -58,10 +62,8 @@ header{
 .administrator__link{
    color: var(--clr-sky50);
    text-decoration: none;
-   font-size: var(--size-lg);
-   font-weight: 600;
-   
-    
+   font-size: var(--size-base);
+   font-weight: 600;   
 }
 
 /* xs */
@@ -70,24 +72,33 @@ header{
 /* sm */
 @media (min-width: 640px) {
     
+    header{
+        font-size: var(--size-2xl);
+    }
+    
+    
     .box{
-        gap: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+        gap: 2rem;
     }
     
     .user__box{
-        padding: 1rem 4rem;
+        padding: 0.5rem 4rem;
     }
     
     .user__link{
-       font-size: var(--size-2xl);  
+       font-size: var(--size-lg);    
     }
     
     .administrator__box{
-        padding: 1rem 1.5rem;
+        padding: 0.5rem 2rem;
     }
     
     .administrator__link{
-       font-size: var(--size-2xl);  
+       font-size: var(--size-lg);
     }
 }
 
@@ -96,24 +107,33 @@ header{
 
 /* lg */
 @media (min-width: 1024px) {
+    .home__flex{
+        gap: 5rem;
+    }
+    
+    header{
+        font-size: var(--size-3xl);
+    }
+    
+    
     .box{
         gap: 3rem;
     }
     
     .user__box{
-        padding: 1rem 6rem;
+        padding: 0.5rem 4rem;
     }
     
     .user__link{
-       font-size: var(--size-4xl);  
+       font-size: var(--size-xl);    
     }
     
     .administrator__box{
-        padding: 1rem 2rem;
+        padding: 0.5rem 2rem;
     }
     
     .administrator__link{
-       font-size: var(--size-4xl);
+       font-size: var(--size-xl);
     }
 }
 
