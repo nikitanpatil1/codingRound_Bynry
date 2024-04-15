@@ -1,9 +1,23 @@
 body{
+    height: 100vh;
     background-color: var(--clr-sky200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--size-3xl);
+}
+
+
 .box{
-    height: 100vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
